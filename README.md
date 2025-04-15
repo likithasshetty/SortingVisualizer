@@ -20,7 +20,7 @@ This is a React-based sorting visualizer that shows various sorting algorithms l
 
 ## Screenshot
 
-![Sorting Visualizer Screenshot](MAINPROJECT/outputss.jpg)
+![Sorting Visualizer Screenshot](assets/outputss.jpg)
 
 You can interact with the app and see how different sorting algorithms work.
 
