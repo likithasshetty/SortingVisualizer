@@ -1,0 +1,53 @@
+/* Sorting Visualizer container */
+.sorting-visualizer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    padding-top: 50px; /* Space from the top of the screen to avoid touching the icon */
+  }
+  
+  /* Array container that holds the bars */
+  .array-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align bars at the bottom */
+    width: 80%; /* Adjust this width to fit your needs */
+    height: 60%; /* Adjust the height so the bars take up appropriate space */
+    margin-bottom: 20px; /* Space between bars and buttons */
+    overflow: hidden; /* Prevent bars from overflowing outside the container */
+  }
+  
+  /* Individual bar style */
+  .bar {
+    background-color:#6fdfce;
+    margin: 0 1px; /* Space between bars */
+    transition: height 0.5s ease, background-color 0.3s ease;
+  }
+  
+  /* Styling for the button container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Disabled button styling */
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

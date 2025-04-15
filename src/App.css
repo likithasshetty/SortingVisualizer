@@ -1,0 +1,43 @@
+/* General styles for the entire container */
+.container {
+  display: flex;
+  justify-content: center; /* Aligns the content horizontally */
+  align-items: center; /* Aligns the content vertically */
+  height: 100vh; /* Takes the full height of the screen */
+  flex-direction: column; /* Stacks elements vertically */
+  gap: 20px; /* Space between elements */
+  padding: 10px; /* Padding around the container */
+}
+
+/* Styling for the SortingVisualizer component */
+.SortingVisualizer {
+  display: flex;
+  justify-content: flex-start; /* Align bars to the left */
+  align-items: flex-end; /* Align bars to the bottom */
+  width: 80%; /* Adjust the width of the visualizer */
+  height: 50%; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflow if bars extend beyond container */
+}
+
+/* Styling for the buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Individual button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
