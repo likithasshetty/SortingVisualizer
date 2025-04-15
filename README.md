@@ -14,13 +14,15 @@ An interactive and intuitive sorting algorithm visualizer built with _React.js_.
 - ⚡ Real-time speed control and visualization
 - 🧠 Educational for students and beginners
 
-## 📸 Screenshots
+# Sorting Visualizer
 
-(Add GIFs or images here of sorting in action)
+This is a React-based sorting visualizer that shows various sorting algorithms like Bubble Sort, Quick Sort, etc.
 
-## 🚀 Live Demo
+## Screenshot
 
-[👉 Click here to view it live](#) _(Replace # with your deployment link once it's live on Netlify/Vercel)_
+![Sorting Visualizer Screenshot](outputss.jpg)
+
+You can interact with the app and see how different sorting algorithms work.
 
 ## 🛠 Tech Stack
 
